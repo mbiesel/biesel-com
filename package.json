@@ -1,0 +1,24 @@
+{
+  "name": "biesel-com",
+  "version": "1.0.0",
+  "description": "biesel.com neos.io website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mbiesel/biesel-com.git"
+  },
+  "author": "Marcus Biesel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mbiesel/biesel-com/issues"
+  },
+  "homepage": "https://github.com/mbiesel/biesel-com#readme",
+  "dependencies": {
+    "bootstrap-sass": "^3.4.0",
+    "gulp": "^4.0.0",
+    "gulp-sass": "^4.0.2"
+  }
+}
