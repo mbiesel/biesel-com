@@ -1347,6 +1347,21 @@ header {
 .biesel-logo {
   padding: 20px 0 14px 0; }
 
+.menu {
+  margin: 28px 0; }
+  .menu ul {
+    text-align: center;
+    padding-left: 0; }
+  .menu li {
+    display: inline-block;
+    list-style: none; }
+  .menu a {
+    padding: 29px 50px;
+    text-decoration: none;
+    font-size: 20px; }
+  .menu a:hover {
+    background-color: #E9E9E9; }
+
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;

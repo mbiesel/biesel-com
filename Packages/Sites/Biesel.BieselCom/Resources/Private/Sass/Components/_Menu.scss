@@ -1,0 +1,23 @@
+.menu {
+  margin: 28px 0;
+
+  ul {
+    text-align: center;
+    padding-left: 0;
+  }
+
+  li {
+    display: inline-block;
+    list-style: none;
+  }
+
+  a {
+    padding: 29px 50px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+
+  a:hover {
+    background-color: $color-background-grey;
+  }
+}

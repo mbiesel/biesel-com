@@ -30,7 +30,9 @@ prototype(Neos.NodeTypes:Page) {
         sectionName = 'body'
 
         parts {
-            menu = Neos.Neos:Menu
+            menu = Neos.Neos:Menu {
+                maximumLevels = 1
+            }
         }
 
         javascripts.site = Neos.Fusion:Template {
