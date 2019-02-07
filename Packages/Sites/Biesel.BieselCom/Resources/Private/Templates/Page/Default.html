@@ -1,33 +1,66 @@
 <!DOCTYPE html>
 {namespace neos=Neos\Neos\ViewHelpers}
 {namespace fusion=Neos\Fusion\ViewHelpers}
-<html>
+<html lang="de">
 <head>
-	<f:section name="stylesheets">
-		<!-- Put your stylesheet inclusions here, they will be included in your website by Fusion -->
-	</f:section>
+    <f:section name="metadata">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </f:section>
+
+    <f:section name="favicons">
+        <link rel="shortcut icon" type="image/png" href="{f:uri.resource(path: 'Images/favicon.png', package: 'Biesel.BieselCom')}" />
+    </f:section>
+
+    <f:section name="stylesheets">
+        <link rel="stylesheet" href="{f:uri.resource(path: 'Styles/AboveTheFold.css', package: 'Biesel.BieselCom')}" media="all" />
+    </f:section>
+
 	<f:section name="headScripts">
 		<!-- Put your scripts inclusions for the head here, they will be included in your website by Fusion -->
 	</f:section>
 </head>
+
 <body>
 <f:section name="body">
-	<nav class="menu">
-		{parts.menu -> f:format.raw()}
-	</nav>
-	<div class="content">
-		{content.main -> f:format.raw()}
 
-	<f:comment>
-		If you enabled the "sidebar" content area in your NodeType configuration and Fusion, you can uncomment this
-		section to actually render in in your output. Remove the "f:comment" tag and this text, and adjust the markup as you
-		like.
+    <header>
+        <div class="container">
+            <a href="/">
+                <img src="{f:uri.resource(package: 'Biesel.BieselCom', path: 'Images/logo2.png')}" title="Biesel GmbH" alt="Biesel GmbH logo" class="biesel-logo" />
+            </a>
+        </div>
+    </header>
 
-		{content.sidebar -> f:format.raw()}
-	</f:comment>
+    <div class="main-content container">
 
-	</div>
+        <div class="row">
+            <div class="col-lg-3">
+                <nav class="menu">
+                    {parts.menu -> f:format.raw()}
+                </nav>
+            </div>
+
+            <div class="col-lg-9">
+                <div class="content">
+                    {content.main -> f:format.raw()}
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4 text-left"><a href="/Impressumg">Impressum</a></div>
+                <div class="col-sm-4 text-center"><a href="/Datenschutz">Datenschutz</a></div>
+                <div class="col-sm-4 text-right"><a href="mailto:biesel-gmbh@t-online.de">biesel-gmbh@t-online.de</a> </div>
+            </div>
+        </div>
+    </footer>
+
 </f:section>
+
 <f:section name="bodyScripts">
 	<!-- Put your scripts inclusions for the end of the body here, they will be included in your website by Fusion -->
 </f:section>
