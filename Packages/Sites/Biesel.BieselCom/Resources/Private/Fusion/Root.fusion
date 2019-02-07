@@ -2,8 +2,18 @@
  * Root Fusion for the bieselcom site
  */
 
-prototype(Biesel.BieselCom:DefaultPage) < prototype(Neos.Neos:Page) {
+prototype(Neos.NodeTypes:Page) {
     head {
+        metadata = Neos.Fusion:Template {
+            templatePath = 'resource://Biesel.BieselCom/Private/Templates/Page/Default.html'
+            sectionName = 'metadata'
+        }
+
+        favicons = Neos.Fusion:Template {
+            templatePath = 'resource://Biesel.BieselCom/Private/Templates/Page/Default.html'
+            sectionName = 'favicons'
+        }
+
         stylesheets.site = Neos.Fusion:Template {
             templatePath = 'resource://Biesel.BieselCom/Private/Templates/Page/Default.html'
             sectionName = 'stylesheets'
@@ -18,6 +28,7 @@ prototype(Biesel.BieselCom:DefaultPage) < prototype(Neos.Neos:Page) {
     body {
         templatePath = 'resource://Biesel.BieselCom/Private/Templates/Page/Default.html'
         sectionName = 'body'
+
         parts {
             menu = Neos.Neos:Menu
         }
@@ -28,5 +39,3 @@ prototype(Biesel.BieselCom:DefaultPage) < prototype(Neos.Neos:Page) {
         }
     }
 }
-
-include: NodeTypes/**/*
