@@ -4,6 +4,16 @@ body {
 }
 
 .main-content {
-  background-color: $color-background-light-grey;
   margin-top: 80px;
+
+  .container {
+    background-color: $color-background-light-grey;
+  }
+}
+
+.header-image img {
+  width: 100%;
+  max-width: 1400px;
+  display: block;
+  margin: 0 auto;
 }

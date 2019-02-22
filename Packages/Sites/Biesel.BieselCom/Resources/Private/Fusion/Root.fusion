@@ -29,6 +29,8 @@ prototype(Neos.NodeTypes:Page) {
         templatePath = 'resource://Biesel.BieselCom/Private/Templates/Page/Default.html'
         sectionName = 'body'
 
+        headerImage = ${q(node).property('headerImage')}
+
         parts {
             menu = Neos.Neos:Menu {
                 maximumLevels = 1

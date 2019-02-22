@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 {namespace neos=Neos\Neos\ViewHelpers}
 {namespace fusion=Neos\Fusion\ViewHelpers}
+{namespace media=Neos\Media\ViewHelpers}
 <html lang="de">
 <head>
     <f:section name="metadata">
@@ -40,18 +41,26 @@
         </div>
     </header>
 
-    <div class="main-content container">
-        <div class="content">
-            {content.main -> f:format.raw()}
+    <div class="main-content">
+        <f:if condition="{headerImage}">
+            <div class="header-image">
+                <media:image image="{headerImage}" alt="{alternativeText}" title="{title}" />
+            </div>
+        </f:if>
+
+        <div class="container">
+            <div class="content">
+                {content.main -> f:format.raw()}
+            </div>
         </div>
     </div>
 
     <footer>
         <div class="container">
             <div class="row">
-                <div class="col-sm-4 text-left"><a href="/Impressumg">Impressum</a></div>
+                <div class="col-sm-4 text-left"><a href="/Impressum">Impressum</a></div>
                 <div class="col-sm-4 text-center"><a href="/Datenschutz">Datenschutz</a></div>
-                <div class="col-sm-4 text-right"><a href="mailto:biesel-gmbh@t-online.de">biesel-gmbh@t-online.de</a> </div>
+                <div class="col-sm-4 text-right"><a href="mailto:guido.biesel@biesel.com">E-mail</a> </div>
             </div>
         </div>
     </footer>

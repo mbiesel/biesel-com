@@ -1,0 +1,16 @@
+'Neos.NodeTypes:Page':
+  ui:
+    inspector:
+      groups:
+        image:
+          label: 'Image'
+  properties:
+    headerImage:
+      type: Neos\Media\Domain\Model\ImageInterface
+      ui:
+        label: 'Header image'
+        inspector:
+          group: 'image'
+          editorOptions:
+            features:
+              crop: true
