@@ -1,0 +1,8 @@
+Neos:
+  Neos:
+    nodeTypes:
+      groups:
+        theme:
+          position: 150
+          label: 'Theme'
+          collapsed: false

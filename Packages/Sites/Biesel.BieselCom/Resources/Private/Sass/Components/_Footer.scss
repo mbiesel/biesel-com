@@ -4,7 +4,6 @@ footer {
   padding: 30px 0;
 }
 
-
 footer a {
   text-decoration: none;
   color: $color-background-light-grey;
@@ -14,3 +13,15 @@ footer a {
 
   }
 }
+
+.container-footer {
+  padding: 0;
+}
+
+.footer-address,
+.footer-tel {
+  color: $color-background-light-grey;
+  text-align: center;
+  padding-bottom: 10px;
+}
+

@@ -1,0 +1,35 @@
+'Biesel.BieselCom:Teaser':
+  superTypes:
+    'Neos.Neos:Content': TRUE
+    'Neos.NodeTypes.BaseMixins:ImageMixin': TRUE
+    'Neos.NodeTypes:TextMixin': TRUE
+  ui:
+    label: Teaser
+    icon: 'icon-teaser'
+    group: theme
+    inspector:
+      groups:
+        teaser:
+          label: 'Teaser'
+  properties:
+    image:
+      ui:
+        inspector:
+          group: 'teaser'
+    alternativeText:
+      ui:
+        inspector:
+          group: 'teaser'
+    title:
+      ui:
+        inspector:
+          group: 'teaser'
+    link:
+      type: string
+      ui:
+        label: 'Link'
+        reloadPageIfChanged: true
+        inspector:
+          group: 'teaser'
+          editor: 'Neos.Neos/Inspector/Editors/LinkEditor'
+          position: 200

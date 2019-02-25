@@ -1,3 +1,5 @@
+include: NodeTypes/*
+
 /**
  * Root Fusion for the bieselcom site
  */
@@ -41,5 +43,12 @@ prototype(Neos.NodeTypes:Page) {
             templatePath = 'resource://Biesel.BieselCom/Private/Templates/Page/Default.html'
             sectionName = 'bodyScripts'
         }
+
+        stylesheets = Neos.Fusion:Array
+        stylesheets.site = Neos.Fusion:Template {
+            templatePath = 'resource://Biesel.BieselCom/Private/Templates/Page/Default.html'
+            sectionName = 'bodySheets'
+        }
+		@process.appendStyleSheets = ${value + this.stylesheets}
     }
 }

@@ -26,7 +26,8 @@
         "neos/seo": "~2.0",
         "neos/setup": "~4.0",
         "neos/redirecthandler-neosadapter": "~2.0",
-        "neos/redirecthandler-databasestorage": "~2.0"
+        "neos/redirecthandler-databasestorage": "~2.0",
+        "neos/kickstarter": "~5.2"
     },
     "require-dev": {
         "neos/buildessentials": "^5.0",

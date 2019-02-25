@@ -1,0 +1,7 @@
+prototype(Biesel.BieselCom:Teaser) {
+  link.@process.convertUris = Neos.Neos:ConvertUris {
+    forceConversion = true
+  }
+}
+
+

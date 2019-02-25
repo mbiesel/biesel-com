@@ -5,9 +5,15 @@ header {
   top: 0;
   background-color: $color-background-light-grey;
   border-bottom: 1px solid $color-background-grey;
+}
 
+.container-header {
+  text-align: center;
+  padding: 0;
 }
 
 .biesel-logo {
+  display: inline-block;
   padding: 20px 0 14px 0;
+  float: left;
 }

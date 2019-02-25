@@ -1,0 +1,61 @@
+.biesel-bieselcom-teaser {
+  position: relative;
+  margin: 20px 0;
+
+  img {
+    width: 100%;
+    display: block;
+  }
+
+  .teaser-content {
+    background-color: $color-light-green;
+    padding: 20px 10px;
+
+  }
+
+  a {
+    text-decoration: none;
+    color: $color-black;
+  }
+
+  a:hover {
+    .teaser-hover-circle {
+      display: block;
+    }
+
+    p {
+      color: $color-corporate-orange;
+    }
+  }
+
+  p {
+    margin: 0;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+  }
+}
+
+.teaser-hover-circle {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -30px;
+  margin-left: -30px;
+  width: 60px;
+  height: 60px;
+  background: $color-corporate-orange;
+  -moz-border-radius: 30px;
+  -webkit-border-radius: 30px;
+  border-radius: 30px;
+
+  &:after {
+    color: $color-white;
+    margin-left: 13px;
+    font-size: 60px;
+    cursor: pointer;
+    content: '+';
+    line-height: 59px;
+  }
+}

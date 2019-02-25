@@ -25,19 +25,14 @@
 <f:section name="body">
 
     <header>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-2">
-                    <a href="/">
-                        <img src="{f:uri.resource(package: 'Biesel.BieselCom', path: 'Images/logo2.png')}" title="Biesel GmbH" alt="Biesel GmbH logo" class="biesel-logo" />
-                    </a>
-                </div>
-                <div class="col-sm-10">
-                    <nav class="menu">
-                        {parts.menu -> f:format.raw()}
-                    </nav>
-                </div>
-            </div>
+        <div class="container container-header">
+            <a href="/">
+                <img src="{f:uri.resource(package: 'Biesel.BieselCom', path: 'Images/logo2.png')}" title="Biesel GmbH" alt="Biesel GmbH logo" class="biesel-logo" />
+            </a>
+
+            <nav class="menu">
+                {parts.menu -> f:format.raw()}
+            </nav>
         </div>
     </header>
 
@@ -56,19 +51,30 @@
     </div>
 
     <footer>
-        <div class="container">
+        <div class="container container-footer">
+            <p class="footer-address">Rohrdorfer Str. 1 | D-83101 Rohrdorf / Achenmühle</p>
+            <p class="footer-tel">Tel. ++49-8032-98827-0</p>
+
+
             <div class="row">
                 <div class="col-sm-4 text-left"><a href="/Impressum">Impressum</a></div>
                 <div class="col-sm-4 text-center"><a href="/Datenschutz">Datenschutz</a></div>
                 <div class="col-sm-4 text-right"><a href="mailto:guido.biesel@biesel.com">E-mail</a> </div>
             </div>
+
         </div>
     </footer>
 
 </f:section>
 
 <f:section name="bodyScripts">
-	<!-- Put your scripts inclusions for the end of the body here, they will be included in your website by Fusion -->
+    <!-- Put your scripts inclusions for the end of the body here, they will be included in your website by Fusion -->
 </f:section>
+
+<f:section name="bodySheets">
+    <link rel="stylesheet" href="{f:uri.resource(path: 'Styles/Bootstrap.css', package: 'Biesel.BieselCom')}" media="all" />
+</f:section>
+
+
 </body>
 </html>
