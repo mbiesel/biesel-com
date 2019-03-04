@@ -26,19 +26,26 @@
 
     <header>
         <div class="container container-header">
-            <a href="/">
+            <a href="/" class="logo-link" title="Startseite">
                 <img src="{f:uri.resource(package: 'Biesel.BieselCom', path: 'Images/logo2.png')}" title="Biesel GmbH" alt="Biesel GmbH logo" class="biesel-logo" />
             </a>
 
-            <nav class="menu">
+            <div class="menu-btn" data-attr="menu-btn">
+                <div class="menu-btn--divider"></div>
+                <div class="menu-btn--divider"></div>
+                <div class="menu-btn--divider"></div>
+            </div>
+
+            <nav class="menu" data-attr="main-menu">
                 {parts.menu -> f:format.raw()}
             </nav>
         </div>
     </header>
 
     <div class="main-content">
+
         <f:if condition="{headerImage}">
-            <div class="header-image">
+            <div class="container header-image">
                 <media:image image="{headerImage}" alt="{alternativeText}" title="{title}" />
             </div>
         </f:if>
@@ -68,7 +75,7 @@
 </f:section>
 
 <f:section name="bodyScripts">
-    <!-- Put your scripts inclusions for the end of the body here, they will be included in your website by Fusion -->
+    <script src="{f:uri.resource(path: 'JavaScript/Bootstrap.js', package: 'Biesel.BieselCom')}" async></script>
 </f:section>
 
 <f:section name="bodySheets">

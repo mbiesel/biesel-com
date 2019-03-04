@@ -1,12 +1,13 @@
 .menu {
   display: inline-block;
   vertical-align: top;
+  background-color: $color-background-light-grey;
 
 
   ul {
     text-align: center;
     padding-left: 0;
-    margin: 28px 0;
+    margin: 0;
   }
 
   li {
@@ -15,12 +16,58 @@
   }
 
   a {
-    padding: 29px 50px;
+    padding: 26px 50px;
     text-decoration: none;
     font-size: 20px;
+    display: inline-block;
   }
 
   a:hover {
     background-color: $color-background-grey;
+  }
+}
+
+@media (max-width: $screen-sm-max) {
+  .menu {
+    position: absolute;
+    top: -241px;
+    right: 0;
+    width: 100%;
+    z-index: -1;
+    @include transition($menu-transition-duration ease-in-out top);
+
+
+    ul {
+      margin: 0;
+    }
+
+    li, a {
+      display: block;
+    }
+
+    li {
+      border-bottom: 1px solid $color-background-grey;
+    }
+
+
+  }
+
+  .menu-btn {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    right: 15px;
+    top: 12px;
+    cursor: pointer;
+  }
+
+  .menu-btn--divider {
+    border-bottom: 3px solid $color-black;
+    padding: 6px 0;
+  }
+
+  .menu.open {
+    top: 80px;
+    @include transition($menu-transition-duration ease-in-out top);
   }
 }

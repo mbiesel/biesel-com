@@ -7,13 +7,24 @@ header {
   border-bottom: 1px solid $color-background-grey;
 }
 
-.container-header {
-  text-align: center;
+.header-image {
   padding: 0;
+}
+
+.logo-link {
+  display: inline-block;
+  float: left;
+}
+
+.container-header {
+  text-align: right;
+  padding-right: 0;
+  position: relative;
+  background-color: $color-background-light-grey;
 }
 
 .biesel-logo {
   display: inline-block;
-  padding: 20px 0 14px 0;
+  padding: 19px 0;
   float: left;
 }

@@ -3,7 +3,11 @@
 }
 
 a {
-  color: $color-corporate-orange
+  color: $color-corporate-orange;
+
+  &:hover {
+    color: $color-footer-green;
+}
 }
 
 .text-left {
