@@ -2,28 +2,416 @@
 <root>
  <site name="Biesel GmbH" state="1" siteResourcesPackageKey="Biesel.BieselCom" siteNodeName="bieselcom">
   <nodes formatVersion="2.0">
-   <node nodeName="bieselcom">
-    <variant workspace="live" nodeType="Biesel.BieselCom:Page" sortingIndex="100" version="1" removed="" hidden="" hiddenInIndex="">
+   <node identifier="71124b0a-ad73-49ac-b2a8-5c9e377b84ab" nodeName="bieselcom">
+    <variant sortingIndex="100" workspace="live" nodeType="Biesel.BieselCom:Page" version="1" removed="" hidden="" hiddenInIndex="">
      <dimensions>
-     
       <language>en_US</language>
-     
      </dimensions>
      <accessRoles __type="array"/>
+     <creationDateTime __type="object" __classname="DateTime">2019-02-04T13:57:22+00:00</creationDateTime>
+     <lastModificationDateTime __type="object" __classname="DateTime">2019-02-04T13:57:22+00:00</lastModificationDateTime>
      <properties>
       <title __type="string">Home</title>
       <uriPathSegment __type="string">home</uriPathSegment>
      </properties>
     </variant>
-    <node nodeName="main">
-     <variant workspace="live" nodeType="Neos.Neos:ContentCollection" sortingIndex="100" version="1" removed="" hidden="" hiddenInIndex="">
+    <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Page" version="3" removed="" hidden="" hiddenInIndex="">
+     <dimensions/>
+     <accessRoles __type="array"/>
+     <creationDateTime __type="object" __classname="DateTime">2019-02-05T12:30:50+00:00</creationDateTime>
+     <lastModificationDateTime __type="object" __classname="DateTime">2019-02-07T14:58:36+00:00</lastModificationDateTime>
+     <lastPublicationDateTime __type="object" __classname="DateTime">2019-02-07T14:58:36+00:00</lastPublicationDateTime>
+     <properties>
+      <title __type="string">Home</title>
+      <uriPathSegment __type="string">home</uriPathSegment>
+      <headerImage __type="object" __identifier="6b923459-e838-4908-9e38-8c5e11302164" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;6b923459-e838-4908-9e38-8c5e11302164&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;header.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;ddea86677e4b577146d09e9fdd2217c58bb12784&quot;,&quot;hash&quot;:&quot;ddea86677e4b577146d09e9fdd2217c58bb12784&quot;,&quot;__identity&quot;:&quot;b8b311ef-4f90-4055-a9fa-3e81fa3ac523&quot;}}</headerImage>
+     </properties>
+    </variant>
+    <node identifier="30dbdb79-b217-40d3-84db-84534c9d375b" nodeName="main">
+     <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
       <dimensions>
-      
        <language>en_US</language>
-      
       </dimensions>
       <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2019-02-04T13:57:22+00:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2019-02-04T13:57:22+00:00</lastModificationDateTime>
+      <properties/>
      </variant>
+     <node identifier="c89deecf-72fa-4286-8b64-63218d6b3808" nodeName="node-4flfe4bzx7uv2">
+      <variant sortingIndex="125" workspace="live" nodeType="Neos.NodeTypes:ThreeColumn" version="4" removed="" hidden="" hiddenInIndex="">
+       <dimensions/>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2019-02-23T14:03:11+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2019-02-23T14:11:04+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2019-02-23T14:11:04+00:00</lastPublicationDateTime>
+       <properties>
+        <layout __type="string">4-4-4</layout>
+       </properties>
+      </variant>
+      <node identifier="a23b26e0-8bff-fe6d-a7e2-e94fe4b08f1d" nodeName="column0">
+       <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2019-02-23T14:03:11+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2019-02-23T14:05:54+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2019-02-23T14:05:54+00:00</lastPublicationDateTime>
+        <properties/>
+       </variant>
+       <node identifier="621ec719-4e8e-4148-8bc2-a735f18677d0" nodeName="node-71f4f8a1n0ay1">
+        <variant sortingIndex="288" workspace="live" nodeType="Biesel.BieselCom:Teaser" version="9" removed="" hidden="" hiddenInIndex="">
+         <dimensions/>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2019-02-23T16:12:24+00:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2019-02-25T14:41:53+00:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2019-02-25T14:41:53+00:00</lastPublicationDateTime>
+         <properties>
+          <text __type="string">&lt;p&gt;&lt;strong&gt;PLANUNG&lt;/strong&gt;&lt;/p&gt;
+</text>
+          <image __type="object" __identifier="5a8fc2de-125c-423c-8143-0a16a56d42eb" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;5a8fc2de-125c-423c-8143-0a16a56d42eb&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;teaser-own.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;0d39ad9febfbfc98794013b9ff8fda3bf7154678&quot;,&quot;hash&quot;:&quot;0d39ad9febfbfc98794013b9ff8fda3bf7154678&quot;,&quot;__identity&quot;:&quot;a0ad8f15-3ca6-4e00-ba1a-9e74f6c05b9b&quot;}}</image>
+          <link __type="string">node://0102933c-4bea-4ef7-b452-d564f2eb0485</link>
+         </properties>
+        </variant>
+       </node>
+      </node>
+      <node identifier="5ae424a4-43b2-1487-f08f-7921886a1212" nodeName="column1">
+       <variant sortingIndex="200" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2019-02-23T14:03:11+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2019-02-23T14:05:54+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2019-02-23T14:05:54+00:00</lastPublicationDateTime>
+        <properties/>
+       </variant>
+       <node identifier="0832682e-24fc-4776-9640-eb2dd31c4147" nodeName="node-c0olumqig1aoj">
+        <variant sortingIndex="194" workspace="live" nodeType="Biesel.BieselCom:Teaser" version="4" removed="" hidden="" hiddenInIndex="">
+         <dimensions/>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2019-02-23T16:28:44+00:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2019-02-23T16:29:20+00:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2019-02-23T16:29:20+00:00</lastPublicationDateTime>
+         <properties>
+          <text __type="string">&lt;p&gt;KONZEPTION&lt;/p&gt;
+</text>
+          <image __type="object" __identifier="5a8fc2de-125c-423c-8143-0a16a56d42eb" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;5a8fc2de-125c-423c-8143-0a16a56d42eb&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;teaser-own.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;0d39ad9febfbfc98794013b9ff8fda3bf7154678&quot;,&quot;hash&quot;:&quot;0d39ad9febfbfc98794013b9ff8fda3bf7154678&quot;,&quot;__identity&quot;:&quot;a0ad8f15-3ca6-4e00-ba1a-9e74f6c05b9b&quot;}}</image>
+         </properties>
+        </variant>
+       </node>
+      </node>
+      <node identifier="8ca26b66-9d6c-57f4-653a-71585ba12a41" nodeName="column2">
+       <variant sortingIndex="300" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2019-02-23T14:03:11+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2019-02-23T14:05:54+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2019-02-23T14:05:54+00:00</lastPublicationDateTime>
+        <properties/>
+       </variant>
+       <node identifier="b645fba6-a6f6-415c-a2de-c3c7358a6a6c" nodeName="node-du14gtg9ap5n4">
+        <variant sortingIndex="288" workspace="live" nodeType="Biesel.BieselCom:Teaser" version="6" removed="" hidden="" hiddenInIndex="">
+         <dimensions/>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2019-02-23T16:29:11+00:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2019-02-23T16:29:20+00:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2019-02-23T16:29:20+00:00</lastPublicationDateTime>
+         <properties>
+          <text __type="string">&lt;p&gt;REALISIERUNG&lt;/p&gt;
+</text>
+          <image __type="object" __identifier="5a8fc2de-125c-423c-8143-0a16a56d42eb" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;5a8fc2de-125c-423c-8143-0a16a56d42eb&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;teaser-own.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;0d39ad9febfbfc98794013b9ff8fda3bf7154678&quot;,&quot;hash&quot;:&quot;0d39ad9febfbfc98794013b9ff8fda3bf7154678&quot;,&quot;__identity&quot;:&quot;a0ad8f15-3ca6-4e00-ba1a-9e74f6c05b9b&quot;}}</image>
+         </properties>
+        </variant>
+       </node>
+      </node>
+     </node>
+     <node identifier="16528678-8087-4394-ae98-0cf783df0dd1" nodeName="node-rzx5zpkwsig3o">
+      <variant sortingIndex="150" workspace="live" nodeType="Neos.NodeTypes:Text" version="11" removed="" hidden="" hiddenInIndex="">
+       <dimensions/>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2019-02-05T11:45:14+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2019-02-23T18:06:39+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2019-02-23T18:06:39+00:00</lastPublicationDateTime>
+       <properties>
+        <text __type="string">&lt;h1&gt;Biesel GmbH - Ihr Trockenbau Profi&lt;/h1&gt;
+
+&lt;p&gt;Die Firma Biesel GmbH beschäftigt als Handwerksbetrieb für Schreinerei und Trockenbau zurzeit etwa 20 Mitarbeiter. Um einem Unternehmen dieser Größenordnung eine gute Auslastung zu gewährleisten, bedarf es mehrerer Standbeine. Bei uns sind dies:&lt;/p&gt;
+
+&lt;p&gt;Die etwas ungewöhnliche Verbindung von &lt;a href=&quot;http://google.de&quot;&gt;Trockenausbau&lt;/a&gt;, hochwertiger Möbelfertigung und der Konfektionierung von Holzwerkstoffplatten bietet in allen Bereichen der Einrichtung und Konzeption große Vorteile in Form von Qualitäts- und Synergieeffekten. Somit können zum einen komplette Raumgestaltungen, mit den entsprechenden Ausbaugewerken bis hin zur Einrichtung mit Möbeln, zum anderen außergewöhnliche Unikate bis hin zur Serienfertigung aus einer Hand geliefert und koordiniert werden.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h2&gt;Why do we use it?&lt;/h2&gt;
+
+&lt;p&gt;It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h2&gt;Where does it come from?&lt;/h2&gt;
+
+&lt;p&gt;Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of &quot;de Finibus Bonorum et Malorum&quot; (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, &quot;Lorem ipsum dolor sit amet..&quot;, comes from a line in section 1.10.32.&lt;/p&gt;
+
+&lt;p&gt;The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from &quot;de Finibus Bonorum et Malorum&quot; by Cicero are&amp;nbsp;&lt;/p&gt;
+</text>
+       </properties>
+      </variant>
+     </node>
+    </node>
+    <node identifier="c45e5bb1-eeb4-4940-9a3a-49734e59e4fa" nodeName="node-gucqzin3ptvfr">
+     <variant sortingIndex="300" workspace="live" nodeType="Neos.NodeTypes:Page" version="4" removed="" hidden="" hiddenInIndex="">
+      <dimensions/>
+      <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2019-02-05T11:44:19+00:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2019-02-07T14:06:27+00:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2019-02-07T14:06:27+00:00</lastPublicationDateTime>
+      <properties>
+       <uriPathSegment __type="string">referenzen</uriPathSegment>
+       <canonicalLink __type="string"></canonicalLink>
+       <title __type="string">Referenzen</title>
+      </properties>
+     </variant>
+     <node identifier="bd5ac256-26b0-7186-b40c-d043e3556a68" nodeName="main">
+      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+       <dimensions/>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2019-02-05T11:44:19+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2019-02-05T11:44:43+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2019-02-05T11:44:43+00:00</lastPublicationDateTime>
+       <properties/>
+      </variant>
+     </node>
+    </node>
+    <node identifier="c3d4690a-21b3-44a5-a9b8-daf350e839e9" nodeName="node-jsf9tmozdu3e7">
+     <variant sortingIndex="400" workspace="live" nodeType="Neos.NodeTypes:Page" version="4" removed="" hidden="" hiddenInIndex="">
+      <dimensions/>
+      <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2019-02-07T14:07:04+00:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2019-03-04T16:53:21+00:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2019-03-04T16:53:21+00:00</lastPublicationDateTime>
+      <properties>
+       <uriPathSegment __type="string">kontakt</uriPathSegment>
+       <canonicalLink __type="string"></canonicalLink>
+       <title __type="string">Kontakt</title>
+      </properties>
+     </variant>
+     <node identifier="9da758a7-23c4-1bb5-592e-c3ba2c169665" nodeName="main">
+      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+       <dimensions/>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2019-02-07T14:07:04+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2019-02-07T14:07:06+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2019-02-07T14:07:06+00:00</lastPublicationDateTime>
+       <properties/>
+      </variant>
+      <node identifier="dab6bcf0-4fa2-42f2-b114-066d76193270" nodeName="node-0x42dx0jnh7hj">
+       <variant sortingIndex="100" workspace="live" nodeType="Biesel.BieselCom:GoogleMaps" version="2" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2019-02-22T13:31:20+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2019-02-22T13:31:23+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2019-02-22T13:31:23+00:00</lastPublicationDateTime>
+        <properties/>
+       </variant>
+      </node>
+      <node identifier="d93f199d-5778-4878-9870-e8793a25b96d" nodeName="node-mxm5povfwh1t0">
+       <variant sortingIndex="75" workspace="live" nodeType="Neos.NodeTypes:Text" version="18" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2019-03-04T16:49:18+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2019-03-04T17:12:44+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2019-03-04T17:12:43+00:00</lastPublicationDateTime>
+        <properties>
+         <text __type="string">&lt;p&gt;Telefon:&amp;nbsp; &amp;nbsp; &amp;nbsp; ++49-8032-98827-0&lt;/p&gt;
+
+&lt;p&gt;Fax:&lt;/p&gt;
+
+&lt;p&gt;Adresse:&amp;nbsp; &amp;nbsp; &amp;nbsp;Rohrdorfer Str. 1, 83101 Rohrdorf / Achenmühle |&amp;nbsp;&lt;a href=&quot;https://www.google.de/maps/dir//Rohrdorfer+Str.+1,+83101+Rohrdorf/@47.7952358,12.2264,19z/data=!4m8!4m7!1m0!1m5!1m1!1s0x4776168df451a791:0x59208eeb7f65ca3f!2m2!1d12.2268858!2d47.795151 target='_blank'&quot;&gt;Anfahrtsplan&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;E-mail:&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;a href=&quot;mailto:guido.biesel@biesel.com&quot;&gt;guido.biesel@biesel.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;Unsere Geschäftszeiten:&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; Mo - Do 7:00 - 17:00 | Fr: 7:00 - 12:00&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+</text>
+        </properties>
+       </variant>
+      </node>
+      <node identifier="e0765a93-0d40-4e4f-bc7c-3d6130246e2c" nodeName="node-ys2yh38t01e6i">
+       <variant sortingIndex="50" workspace="live" nodeType="Neos.NodeTypes:Headline" version="6" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2019-03-04T16:49:07+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2019-03-04T16:53:53+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2019-03-04T16:53:53+00:00</lastPublicationDateTime>
+        <properties>
+         <title __type="string">&lt;h1&gt;Kontakt / Standort&lt;/h1&gt;
+</title>
+        </properties>
+       </variant>
+      </node>
+     </node>
+    </node>
+    <node identifier="5c133863-643a-41aa-90ba-7e7d180159f4" nodeName="node-s2l9kpe5d087h">
+     <variant sortingIndex="350" workspace="live" nodeType="Neos.NodeTypes:Page" version="4" removed="" hidden="" hiddenInIndex="">
+      <dimensions/>
+      <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2019-02-05T12:15:37+00:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2019-02-07T14:06:52+00:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2019-02-07T14:06:52+00:00</lastPublicationDateTime>
+      <properties>
+       <uriPathSegment __type="string">historie</uriPathSegment>
+       <canonicalLink __type="string"></canonicalLink>
+       <title __type="string">Historie</title>
+      </properties>
+     </variant>
+     <node identifier="2094afea-cab3-0dbd-9781-01beedeab8f2" nodeName="main">
+      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+       <dimensions/>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2019-02-05T12:15:37+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2019-02-05T12:15:43+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2019-02-05T12:15:43+00:00</lastPublicationDateTime>
+       <properties/>
+      </variant>
+      <node identifier="ab856609-11fa-448b-9b00-f4168d62f33d" nodeName="node-krccxndddxpz1">
+       <variant sortingIndex="150" workspace="live" nodeType="Neos.NodeTypes:Text" version="4" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2019-02-05T14:20:52+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2019-02-05T14:20:56+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2019-02-05T14:20:56+00:00</lastPublicationDateTime>
+        <properties>
+         <text __type="string">&lt;h2&gt;Why do we use it?&lt;/h2&gt;
+
+&lt;p&gt;It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h2&gt;Where does it come from?&lt;/h2&gt;
+
+&lt;p&gt;Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of &quot;de Finibus Bonorum et Malorum&quot; (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, &quot;Lorem ipsum dolor sit amet..&quot;, comes from a line in section 1.10.32.&lt;/p&gt;
+
+&lt;p&gt;The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from &quot;de Finibus Bonorum et Malorum&quot; by Cicero are&amp;nbsp;&lt;/p&gt;
+</text>
+        </properties>
+       </variant>
+      </node>
+      <node identifier="09c0c413-e8ca-4640-9423-cbbe013a6afa" nodeName="node-wmnvdkzdrp5tn">
+       <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Headline" version="2" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2019-02-05T12:15:42+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2019-02-05T12:15:43+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2019-02-05T12:15:43+00:00</lastPublicationDateTime>
+        <properties>
+         <title __type="string">&lt;h1&gt;Enter headline here&lt;/h1&gt;</title>
+        </properties>
+       </variant>
+      </node>
+     </node>
+    </node>
+    <node identifier="0102933c-4bea-4ef7-b452-d564f2eb0485" nodeName="node-xp18rvzyph2xr">
+     <variant sortingIndex="200" workspace="live" nodeType="Neos.NodeTypes:Page" version="6" removed="" hidden="" hiddenInIndex="">
+      <dimensions/>
+      <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2019-02-05T11:44:03+00:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2019-02-07T14:06:06+00:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2019-02-07T14:06:06+00:00</lastPublicationDateTime>
+      <properties>
+       <uriPathSegment __type="string">leistungsprofil</uriPathSegment>
+       <canonicalLink __type="string"></canonicalLink>
+       <title __type="string">Leistungsprofil</title>
+      </properties>
+     </variant>
+     <node identifier="c3012fe7-40a1-554b-49da-930844b41bbf" nodeName="main">
+      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="4" removed="" hidden="" hiddenInIndex="">
+       <dimensions/>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2019-02-05T11:44:03+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2019-02-05T12:25:58+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2019-02-05T12:25:58+00:00</lastPublicationDateTime>
+       <properties/>
+      </variant>
+      <node identifier="4d9f8b4d-9249-4da1-ab72-33d98cb4303c" nodeName="node-52xeyrzm9cbau">
+       <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Headline" version="2" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2019-02-05T11:58:42+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2019-02-05T12:00:43+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2019-02-05T12:00:43+00:00</lastPublicationDateTime>
+        <properties>
+         <title __type="string">&lt;h1&gt;Enter headline here&lt;/h1&gt;</title>
+        </properties>
+       </variant>
+      </node>
+      <node identifier="fde6232a-fba8-43cf-8521-73bede7f60e8" nodeName="node-wao5fyx7zrcfz">
+       <variant sortingIndex="200" workspace="live" nodeType="Neos.NodeTypes:TextWithImage" version="7" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2019-02-05T11:58:49+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2019-02-05T12:00:43+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2019-02-05T12:00:43+00:00</lastPublicationDateTime>
+        <properties>
+         <text __type="string">&lt;h2&gt;What is Lorem Ipsum?&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Lorem Ipsum&lt;/strong&gt;&amp;nbsp;is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&lt;/p&gt;
+
+&lt;h2&gt;Why do we use it?&lt;/h2&gt;
+
+&lt;p&gt;It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h2&gt;Where does it come from?&lt;/h2&gt;
+
+&lt;p&gt;Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of &quot;de Finibus Bonorum et Malorum&quot; (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, &quot;Lorem ipsum dolor sit amet..&quot;, comes from a line in section 1.10.32.&lt;/p&gt;
+
+&lt;p&gt;The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from &quot;de Finibus Bonorum et Malorum&quot; by Cicero are&amp;nbsp;&lt;/p&gt;
+</text>
+         <caption __type="string"></caption>
+         <alignment __type="string">left</alignment>
+         <image __type="object" __identifier="67d0c705-8362-4efd-8b32-d2b222ae8e93" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;67d0c705-8362-4efd-8b32-d2b222ae8e93&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;unternehmen.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;4896f4d5ecbbdaf97b27d06016e83751080e3e07&quot;,&quot;hash&quot;:&quot;4896f4d5ecbbdaf97b27d06016e83751080e3e07&quot;,&quot;__identity&quot;:&quot;45e418e6-b9e9-4730-a0f1-6d586c7feecf&quot;}}</image>
+        </properties>
+       </variant>
+      </node>
+     </node>
+     <node identifier="e0bb4c01-878b-43b2-adde-da52f2bfaec7" nodeName="node-ep0jhv37sogon">
+      <variant sortingIndex="350" workspace="live" nodeType="Neos.NodeTypes:Page" version="3" removed="" hidden="" hiddenInIndex="">
+       <dimensions/>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2019-02-05T11:44:39+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2019-02-05T11:44:43+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2019-02-05T11:44:43+00:00</lastPublicationDateTime>
+       <properties>
+        <uriPathSegment __type="string">test-1-2</uriPathSegment>
+        <canonicalLink __type="string"></canonicalLink>
+        <title __type="string">Test 1 2</title>
+       </properties>
+      </variant>
+      <node identifier="9126112d-4745-a726-afae-c0acca5505e6" nodeName="main">
+       <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2019-02-05T11:44:39+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2019-02-05T11:44:43+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2019-02-05T11:44:43+00:00</lastPublicationDateTime>
+        <properties/>
+       </variant>
+       <node identifier="ff1a4a11-b16d-4778-98d7-30042ba5e96c" nodeName="node-imdr0btdncr5h">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Headline" version="2" removed="" hidden="" hiddenInIndex="">
+         <dimensions/>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2019-02-05T12:14:07+00:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2019-02-05T12:14:08+00:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2019-02-05T12:14:08+00:00</lastPublicationDateTime>
+         <properties>
+          <title __type="string">&lt;h1&gt;Enter headline here&lt;/h1&gt;</title>
+         </properties>
+        </variant>
+       </node>
+      </node>
+     </node>
     </node>
    </node>
   </nodes>
