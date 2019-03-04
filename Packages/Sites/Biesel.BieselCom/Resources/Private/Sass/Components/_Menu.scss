@@ -1,34 +1,73 @@
 .menu {
-  display: inline-block;
-  vertical-align: top;
+  position: absolute;
+  top: -241px;
+  right: 0;
   background-color: $color-background-light-grey;
+  width: 100%;
+  z-index: -1;
+  @include transition($menu-transition-duration ease-in-out top);
 
 
   ul {
-    text-align: center;
-    padding-left: 0;
+    padding: 0;
     margin: 0;
-  }
-
-  li {
-    display: inline-block;
-    list-style: none;
   }
 
   a {
     padding: 26px 50px;
     text-decoration: none;
     font-size: 20px;
-    display: inline-block;
+    text-align: center;
   }
 
-  a:hover {
-    background-color: $color-background-grey;
+  li, a {
+    display: block;
   }
+
+  li {
+    border-bottom: 1px solid $color-background-grey;
+  }
+}
+
+.menu-btn {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  right: 15px;
+  top: 12px;
+  cursor: pointer;
+}
+
+.menu-btn--divider {
+  border-bottom: 3px solid $color-black;
+  padding: 6px 0;
+}
+
+.menu.open {
+  top: 80px;
+  @include transition($menu-transition-duration ease-in-out top);
 }
 
 
 @media (min-width: $screen-md) {
+  .menu {
+    position: initial;
+
+    li {
+      display: inline-block;
+      border: none;
+    }
+
+    a:hover {
+      background-color: $color-background-grey;
+    }
+  }
+
+  .menu-btn {
+    display: none;
+  }
+
+
   .menu a {
     padding: 36px 50px;
 
@@ -39,50 +78,5 @@
     padding: 26px 50px;
 
     @include transition($header-transition-duration ease-in-out padding);
-  }
-}
-
-@media (max-width: $screen-sm-max) {
-  .menu {
-    position: absolute;
-    top: -241px;
-    right: 0;
-    width: 100%;
-    z-index: -1;
-    @include transition($menu-transition-duration ease-in-out top);
-
-
-    ul {
-      margin: 0;
-    }
-
-    li, a {
-      display: block;
-    }
-
-    li {
-      border-bottom: 1px solid $color-background-grey;
-    }
-
-
-  }
-
-  .menu-btn {
-    height: 50px;
-    width: 50px;
-    position: absolute;
-    right: 15px;
-    top: 12px;
-    cursor: pointer;
-  }
-
-  .menu-btn--divider {
-    border-bottom: 3px solid $color-black;
-    padding: 6px 0;
-  }
-
-  .menu.open {
-    top: 80px;
-    @include transition($menu-transition-duration ease-in-out top);
   }
 }
