@@ -33,3 +33,11 @@
           group: 'teaser'
           editor: 'Neos.Neos/Inspector/Editors/LinkEditor'
           position: 200
+
+'Biesel.BieselCom:GoogleMaps':
+  superTypes:
+    'Neos.Neos:Content': TRUE
+  ui:
+    label: GoogleMaps
+    icon: 'icon-map-marker-alt'
+    group: theme
