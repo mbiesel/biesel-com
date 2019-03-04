@@ -3,3 +3,14 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+
+.container {
+  @media (min-width: $screen-xl-min) {
+    width: $container-xl;
+  }
+}
+
+
+@media (min-width: $screen-xl-min) {
+  @include make-grid(xl);
+}

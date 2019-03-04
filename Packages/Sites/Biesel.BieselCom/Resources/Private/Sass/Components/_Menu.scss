@@ -27,6 +27,21 @@
   }
 }
 
+
+@media (min-width: $screen-md) {
+  .menu a {
+    padding: 36px 50px;
+
+    @include transition($header-transition-duration ease-in-out padding);
+  }
+
+  header.scrolled .menu a {
+    padding: 26px 50px;
+
+    @include transition($header-transition-duration ease-in-out padding);
+  }
+}
+
 @media (max-width: $screen-sm-max) {
   .menu {
     position: absolute;
