@@ -34,13 +34,22 @@ header {
   .biesel-logo {
     padding: 29px 0;
 
-    @include transition($header-transition-duration ease-in-out padding);
+    @include transition($header-transition-duration ease-out padding);
   }
 
+  header {
+    height: 100px;
+    @include transition($header-transition-duration ease-out height);
+
+  &.scrolled {
+      height: 80px;
+      @include transition($header-transition-duration ease-out height);
+    }
+  }
 
   header.scrolled .biesel-logo {
     padding: 19px 0;
 
-    @include transition($header-transition-duration ease-in-out padding);
+    @include transition($header-transition-duration ease-out padding);
   }
 }

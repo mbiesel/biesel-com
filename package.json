@@ -17,10 +17,11 @@
   },
   "homepage": "https://github.com/mbiesel/biesel-com#readme",
   "dependencies": {
+    "bootstrap-sass": "^3.4.1",
+    "font-awesome": "^4.7.0",
     "gulp": "^4.0.0",
     "gulp-concat": "^2.6.1",
     "gulp-sass": "^4.0.2",
-    "bootstrap-sass": "^3.4.1",
     "jquery": "^3.3.1"
   }
 }

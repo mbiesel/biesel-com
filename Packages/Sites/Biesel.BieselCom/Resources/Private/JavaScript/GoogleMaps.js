@@ -115,9 +115,9 @@
         this.infoWindowContent = function() {
             return "<div class='google-maps-infowindow'>" +
                         "<h3>Biesel GmbH</h3>" +
-                        "<p>Rohrdorfer Str. 1, 83101 Achenmühle</p>" +
-                        "<p>Tel: ++49-8032-98827-0</p>" +
-                        "<a href='" + this.routePlannerUrl + "'target='_blank' >Anfahrtsplaner</a>" +
+                        "<p><i class='far fa-location-arrow'></i>Rohrdorfer Str. 1, 83101 Achenmühle</p>" +
+                        "<p><i class='far fa-phone'></i> ++49-8032-98827-0</p>" +
+                        "<a href='" + this.routePlannerUrl + "'target='_blank' ><i class='far fa-map-marker link'></i>Anfahrtsplaner</a>" +
                    "</div>";
         };
 

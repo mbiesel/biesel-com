@@ -5,7 +5,7 @@
   background-color: $color-background-light-grey;
   width: 100%;
   z-index: -1;
-  @include transition($menu-transition-duration ease-in-out top);
+  @include transition($menu-transition-duration ease-out top);
 
 
   ul {
@@ -45,13 +45,13 @@
 
 .menu.open {
   top: 80px;
-  @include transition($menu-transition-duration ease-in-out top);
+  @include transition($menu-transition-duration ease-out top);
 }
 
 
 @media (min-width: $screen-md) {
   .menu {
-    position: initial;
+    position: static;
 
     li {
       display: inline-block;
@@ -71,12 +71,12 @@
   .menu a {
     padding: 36px 50px;
 
-    @include transition($header-transition-duration ease-in-out padding);
+    @include transition($header-transition-duration ease-out padding);
   }
 
   header.scrolled .menu a {
     padding: 26px 50px;
 
-    @include transition($header-transition-duration ease-in-out padding);
+    @include transition($header-transition-duration ease-out padding);
   }
 }
