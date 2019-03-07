@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "9a81e9934151803060369caf622d0b75",
+    "content-hash": "49e4f629fe3109f8fdab12138949b00c",
     "packages": [
         {
             "name": "behat/transliterator",
@@ -49,6 +49,30 @@
                 "transliterator"
             ],
             "time": "2017-04-04T11:38:05+00:00"
+        },
+        {
+            "name": "byron/neos-slider",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:mbiesel/byron-neos-slider.git",
+                "reference": "b856bf443abe8767043173281b14b44490bb904c"
+            },
+            "require": {
+                "neos/flow": "*"
+            },
+            "type": "neos-package",
+            "extra": {
+                "neos": {
+                    "package-key": "Byron.Neos.Slider"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Byron\\Neos\\Slider\\": "Classes/"
+                }
+            },
+            "time": "2019-03-07T17:02:46+00:00"
         },
         {
             "name": "doctrine/annotations",
@@ -6856,7 +6880,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "byron/neos-slider": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
