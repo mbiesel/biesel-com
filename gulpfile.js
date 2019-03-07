@@ -19,7 +19,7 @@ gulp.task('sass:watch', function() {
 });
 
 gulp.task('scripts', function() {
-    return gulp.src([lib + 'jquery/dist/jquery.min.js', src + 'JavaScript/**/*.js'])
+    return gulp.src([lib + 'jquery/dist/jquery.min.js',lib + 'picturefill/dist/picturefill.min.js', src + 'JavaScript/**/*.js'])
         .pipe(concat('Bootstrap.js'))
         .pipe(gulp.dest(dest + 'JavaScript/'));
 });

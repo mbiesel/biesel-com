@@ -17,13 +17,12 @@ $fa-font-path: '../Fonts';
 .far {
   font-family: FontAwesome;
   font-style: normal;
-  padding-right: 3px;
+  padding-right: 5px;
   font-size: 17px;
 }
 
 .fa-envelope {
   content: $fa-var-envelope-o;
-  padding-right: 5px;
 }
 
 .fa-phone {

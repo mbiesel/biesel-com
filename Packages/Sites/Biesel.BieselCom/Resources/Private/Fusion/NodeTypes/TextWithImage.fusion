@@ -1,0 +1,4 @@
+prototype(Neos.NodeTypes:TextWithImage) {
+  templatePath = 'resource://Biesel.BieselCom/Private/Templates/NodeTypes/TextWithImage.html'
+
+}

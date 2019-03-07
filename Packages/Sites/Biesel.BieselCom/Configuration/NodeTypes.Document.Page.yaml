@@ -9,8 +9,26 @@
       type: Neos\Media\Domain\Model\ImageInterface
       ui:
         label: 'Header image'
+        reloadIfChanged: true
         inspector:
           group: 'image'
+          position: 50
           editorOptions:
             features:
               crop: true
+    headerImageAlternativeText:
+      type: string
+      ui:
+        label: 'Alternative text'
+        reloadIfChanged: true
+        inspector:
+          group: 'image'
+          position: 100
+    headerImageTitle:
+      type: string
+      ui:
+        label: 'Title'
+        reloadIfChanged: true
+        inspector:
+          group: 'image'
+          position: 150

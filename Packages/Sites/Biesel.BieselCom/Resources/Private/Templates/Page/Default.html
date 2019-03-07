@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 {namespace neos=Neos\Neos\ViewHelpers}
 {namespace fusion=Neos\Fusion\ViewHelpers}
-{namespace media=Neos\Media\ViewHelpers}
+{namespace m=Neos\Media\ViewHelpers}
 <html lang="de">
 <head>
     <f:section name="metadata">
@@ -46,7 +46,14 @@
 
         <f:if condition="{headerImage}">
             <div class="container header-image">
-                <media:image image="{headerImage}" alt="{alternativeText}" title="{title}" />
+                <picture>
+                    <source srcset="{m:uri.image(image: headerImage, width: '1370')}" media="(min-width: 1400px)">
+                    <source srcset="{m:uri.image(image: headerImage, width: '1170')}" media="(min-width: 1200px)">
+                    <source srcset="{m:uri.image(image: headerImage, width: '970')}" media="(min-width: 992px)">
+                    <source srcset="{m:uri.image(image: headerImage, width: '750')}" media="(min-width: 768px)">
+                    <source srcset="{m:uri.image(image: headerImage, width: '768')}" media="(min-width: 480px)">
+                    <img srcset="{m:uri.image(image: headerImage, width: '480')}" alt="{headerImageAlternativeText}" title="{headerImageTitle}">
+                </picture>
             </div>
         </f:if>
 
@@ -59,16 +66,14 @@
 
     <footer>
         <div class="container container-footer">
-            <p class="footer-address"><i class="far fa-location-arrow"></i> Rohrdorfer Str. 1 | D-83101 Rohrdorf / Achenmühle</p>
-            <p class="footer-tel"><i class="far fa-phone"></i> ++49-8032-98827-0</p>
-
+            <p class="footer-address"><i class="far fa-location-arrow"></i>Rohrdorfer Str. 1 | D-83101 Rohrdorf / Achenmühle</p>
+            <p class="footer-tel"><i class="far fa-phone"></i>++49-8032-98827-0</p>
 
             <div class="row">
-                <div class="col-sm-4 text-left"><a href="/Impressum">Impressum</a></div>
-                <div class="col-sm-4 text-center"><a href="/Datenschutz">Datenschutz</a></div>
-                <div class="col-sm-4 text-right"><a href="mailto:guido.biesel@biesel.com"><i class="far fa-envelope"></i>E-mail</a> </div>
+                <div class="col-xs-4 text-left"><a href="/Impressum">Impressum</a></div>
+                <div class="col-xs-4 text-center"><a href="/Datenschutz">Datenschutz</a></div>
+                <div class="col-xs-4 text-right"><a href="mailto:guido.biesel@biesel.com"><i class="far fa-envelope"></i>E-mail</a> </div>
             </div>
-
         </div>
     </footer>
 

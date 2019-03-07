@@ -32,6 +32,8 @@ prototype(Neos.NodeTypes:Page) {
         sectionName = 'body'
 
         headerImage = ${q(node).property('headerImage')}
+        headerImageAlternativeText = ${q(node).property('headerImageAlternativeText')}
+        headerImageTitle = ${q(node).property('headerImageTitle')}
 
         parts {
             menu = Neos.Neos:Menu {
