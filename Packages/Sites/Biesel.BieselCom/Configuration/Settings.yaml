@@ -6,3 +6,10 @@ Neos:
           position: 150
           label: 'Theme'
           collapsed: false
+
+  Flow:
+    mvc:
+      routes:
+        'Neos.Neos':
+          variables:
+            'defaultUriSuffix': ''

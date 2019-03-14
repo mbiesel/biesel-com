@@ -5,7 +5,7 @@
     'Neos.NodeTypes:TextMixin': TRUE
   ui:
     label: Teaser
-    icon: 'icon-teaser'
+    icon: 'icon-receipt'
     group: theme
     inspector:
       groups:
@@ -34,6 +34,7 @@
           editor: 'Neos.Neos/Inspector/Editors/LinkEditor'
           position: 200
 
+
 'Biesel.BieselCom:GoogleMaps':
   superTypes:
     'Neos.Neos:Content': TRUE
@@ -41,3 +42,20 @@
     label: GoogleMaps
     icon: 'icon-map-marker-alt'
     group: theme
+
+
+'Biesel.BieselCom:Carousel':
+  superTypes:
+    'Neos.Neos:Content': TRUE
+  childNodes:
+    carouselItems:
+      type: 'Neos.Neos:ContentCollection'
+      constraints:
+        nodeTypes:
+          '*': FALSE
+          'Neos.NodeTypes:Image': TRUE
+  ui:
+    label: Carousel
+    group: theme
+    icon: 'icon-picture'
+    inlineEditable: TRUE

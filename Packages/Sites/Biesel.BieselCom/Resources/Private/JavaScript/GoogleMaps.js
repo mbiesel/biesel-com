@@ -53,7 +53,7 @@
          * @private
          * @type string
          */
-        this.routePlannerUrl = 'https://www.google.de/maps/dir//Rohrdorfer+Str.+1,+83101+Rohrdorf/@47.7952358,12.2264,19z/data=!4m8!4m7!1m0!1m5!1m1!1s0x4776168df451a791:0x59208eeb7f65ca3f!2m2!1d12.2268858!2d47.795151';
+        this.routePlannerUrl = 'https://www.google.de/maps/dir//Biesel+GmbH,+Rohrdorfer+Str.+1,+83101+Rohrdorf/@47.794861,12.2253136,18z/data=!4m8!4m7!1m0!1m5!1m1!1s0x47761790fcc741e5:0x34efcc7e05434202!2m2!1d12.2268858!2d47.795151';
 
         /**
          * @property map

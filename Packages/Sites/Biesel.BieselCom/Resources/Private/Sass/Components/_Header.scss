@@ -31,15 +31,18 @@ header {
 
 
 @media (min-width: $screen-md) {
-  .biesel-logo {
-    padding: 29px 0;
-
-    @include transition($header-transition-duration ease-out padding);
-  }
 
   header.scrolled .biesel-logo {
-    padding: 19px 0;
+    padding-top: 19px;
+    padding-bottom: 19px;
 
-    @include transition($header-transition-duration ease-out padding);
+    @include transition($header-transition-duration ease-out padding-top, $header-transition-duration ease-out padding-bottom);
+  }
+
+  .biesel-logo {
+    padding-top: 29px;
+    padding-bottom: 29px;
+
+    @include transition($header-transition-duration ease-out padding-top, $header-transition-duration ease-out padding-bottom);
   }
 }

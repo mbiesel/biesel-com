@@ -1,0 +1,24 @@
+{namespace neos=Neos\Neos\ViewHelpers}
+{namespace m=Neos\Media\ViewHelpers}
+<div{attributes -> f:format.raw()}>
+	<f:if condition="{image}">
+		<f:then>
+            <picture>
+                <source srcset="{m:uri.image(image: image, width: '1140')}" media="(min-width: 1400px)">
+                <source srcset="{m:uri.image(image: image, width: '940')}" media="(min-width: 1200px)">
+                <source srcset="{m:uri.image(image: image, width: '740')}" media="(min-width: 992px)">
+                <source srcset="{m:uri.image(image: image, width: '640')}" media="(min-width: 768px)">
+                <source srcset="{m:uri.image(image: image, width: '697')}" media="(min-width: 480px)">
+                <img srcset="{m:uri.image(image: image, width: '449')}" alt="{alternativeText}" title="{title}" class="carousel-image">
+            </picture>
+		</f:then>
+		<f:else>
+			<img src="{f:uri.resource(package: 'Neos.Neos', path: 'Images/dummy-image.png')}" title="Dummy image" alt="Dummy image" />
+		</f:else>
+	</f:if>
+	<div class="carousel-caption">
+		<f:if condition="{hasCaption}">
+			{neos:contentElement.editable(property: 'caption')}
+		</f:if>
+	</div>
+</div>

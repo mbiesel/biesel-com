@@ -27,6 +27,10 @@
   li {
     border-bottom: 1px solid $color-background-grey;
   }
+
+  li.current a {
+    color: $color-footer-green;
+  }
 }
 
 .menu-btn {
@@ -53,6 +57,7 @@
   .menu {
     position: static;
 
+
     li {
       display: inline-block;
       border: none;
@@ -70,13 +75,19 @@
 
   .menu a {
     padding: 36px 50px;
+    vertical-align: middle;
 
-    @include transition($header-transition-duration ease-out padding);
+
+    @include transition($header-transition-duration ease-out padding-top, $header-transition-duration ease-out padding-bottom);
   }
 
   header.scrolled .menu a {
-    padding: 26px 50px;
+    padding-top: 26px;
+    padding-bottom: 26px;
+    padding-left: 50px;
+    padding-right: 50px;
 
-    @include transition($header-transition-duration ease-out padding);
+
+    @include transition($header-transition-duration ease-out padding-top, $header-transition-duration ease-out padding-bottom);
   }
 }

@@ -15,12 +15,6 @@
         "vendor-dir": "Packages/Libraries",
         "bin-dir": "bin"
     },
-    "repositories": [
-        {
-            "type": "git",
-            "url": "git@github.com:mbiesel/byron-neos-slider.git"
-        }
-    ],
     "require": {
         "neos/neos": "~4.2.0",
         "neos/nodetypes": "~4.2.0",
@@ -33,8 +27,7 @@
         "neos/setup": "~4.0",
         "neos/redirecthandler-neosadapter": "~2.0",
         "neos/redirecthandler-databasestorage": "~2.0",
-        "neos/kickstarter": "~5.2",
-        "byron/neos-slider": "@dev"
+        "neos/kickstarter": "~5.2"
     },
     "require-dev": {
         "neos/buildessentials": "^5.0",

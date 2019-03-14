@@ -51,30 +51,6 @@
             "time": "2017-04-04T11:38:05+00:00"
         },
         {
-            "name": "byron/neos-slider",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:mbiesel/byron-neos-slider.git",
-                "reference": "b856bf443abe8767043173281b14b44490bb904c"
-            },
-            "require": {
-                "neos/flow": "*"
-            },
-            "type": "neos-package",
-            "extra": {
-                "neos": {
-                    "package-key": "Byron.Neos.Slider"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Byron\\Neos\\Slider\\": "Classes/"
-                }
-            },
-            "time": "2019-03-07T17:02:46+00:00"
-        },
-        {
             "name": "doctrine/annotations",
             "version": "v1.6.0",
             "source": {
