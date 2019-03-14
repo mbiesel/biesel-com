@@ -31,6 +31,7 @@
   p {
     margin: 0;
     font-size: 30px;
+    font-size: $teaser-text-font-size;
     text-align: center;
     font-weight: bold;
   }
@@ -54,6 +55,7 @@
     color: $color-white;
     margin-left: 13px;
     font-size: 60px;
+    font-size: $teaser-icon-font-size;
     cursor: pointer;
     content: '+';
     line-height: 59px;

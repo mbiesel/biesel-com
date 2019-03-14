@@ -14,11 +14,36 @@ $fa-font-path: '../Fonts';
   font-style: normal;
 }
 
+body,html  {
+  font-size: 100%;
+}
+
+p, a {
+  font-size: 16px;
+  font-size: $p-tag-font-size;
+}
+
+h1 {
+  font-size: 32px;
+  font-size: $h1-tag-font-size;
+}
+
+h2 {
+  font-size: 24px;
+  font-size: $h2-tag-font-size;
+}
+
+h3 {
+  font-size: 19px;
+  font-size: $h3-tag-font-size;
+}
+
 .far {
   font-family: FontAwesome;
   font-style: normal;
   padding-right: 5px;
-  font-size: 17px;
+  font-size: 16px;
+  font-size: $p-tag-font-size;
 }
 
 .fa-envelope {
